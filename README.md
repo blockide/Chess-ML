@@ -1,13 +1,9 @@
 # twitchchess
 
-An implementation of neural network chess written while livestreaming.
+An implementation of neural network chess
 
 <img width=600px src="https://raw.githubusercontent.com/geohot/twitchchess/master/screenshot.png" />
 
-Stream
------
-
-https://www.twitch.tv/tomcr00s3
 
 Usage
 -----
@@ -29,7 +25,7 @@ TODOs
 Implementation
 -----
 
-twitchchess is a simple 1 look ahead neural network value function. The trained net is in nets/value.pth. It takes in a serialized board and outputs a range from -1 to 1. -1 means black is win, 1 means white is win.
+ML Chess is a simple 1 look ahead neural network value function. The trained net is in nets/value.pth. It takes in a serialized board and outputs a range from -1 to 1. -1 means black is win, 1 means white is win.
 
 Serialization
 -----
